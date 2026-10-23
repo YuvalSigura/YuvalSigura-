@@ -1,62 +1,100 @@
+<div align="center">
+
 # Yuval Sigura
 
-## AI • Robotics • Cybersecurity • Research Engineering
+### AI Research · Cybersecurity · Autonomous Systems · Robotics
 
-I build practical systems at the intersection of **artificial intelligence, autonomous robotics, cybersecurity, and developer infrastructure**.
+**Building systems that connect research, engineering, evidence, and real-world execution.**
 
-My work ranges from AI research and agent orchestration to educational robotics, Wi‑Fi sensing, embedded systems, and open-source engineering.
+[GitHub](https://github.com/YuvalSigura) · [Exam Recall — Live Web App](https://yuvalsigura.github.io/)
 
-<p align="center">
-  <a href="https://github.com/YuvalSigura"><img src="https://img.shields.io/badge/GitHub-YuvalSigura-181717?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
-  <a href="https://YuvalSigura.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
-</p>
+</div>
 
 ---
 
-## What I work on
+## About
 
-- **AI research and autonomous agents** — research discovery, evaluation, orchestration, and intelligent automation
-- **Robotics and embedded systems** — autonomous robots, educational robotics, edge AI, and physical computing
-- **Cybersecurity** — CTF challenges, security experimentation, and defensive research
-- **Sensing and machine learning** — Wi‑Fi CSI sensing, computer vision, and neural networks
-- **Developer infrastructure** — homelab automation, containers, web services, and engineering workflows
+I work across **AI research, security engineering, autonomous systems, robotics, and applied software development**. My projects range from reproducible security laboratories and research infrastructure to edge robotics, sensing experiments, and interactive web applications.
 
-## Selected projects
+My engineering approach emphasizes **observable behavior over claims**, **evidence and provenance**, **explicit safety boundaries**, and **reproducible evaluation**. I care about how systems behave under failure and uncertainty—not only how they perform in a demonstration.
 
-### [Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)
-An AI research laboratory exploring autonomous scientific questioning, hidden-assumption discovery, synthetic research environments, evidence-driven evaluation, and multi-agent orchestration.
+## Selected public projects
 
-**Focus:** AI research · autonomous agents · evaluation · Python
+### 🔬 [Research Discovery Lab](https://github.com/YuvalSigura/Research-Discovery-Lab)
+**Research intelligence · Evidence provenance · Python**
 
-### [Educational Robotics & AI Showcase](https://github.com/YuvalSigura/yuvalsigura.github.io)
-A showcase website for robotics and AI kits designed for schools, makers, and hands-on learning.
+Research infrastructure for reconstructing how investigative questions, experiments, evidence, and decisions lead to discoveries. The project separates observed facts from interpretations, preserves uncertainty and negative results, and supports traceable analysis rather than fabricated research narratives.
 
-**Focus:** robotics · education · web development · AI
+**Engineering focus:** typed registries, schema validation, research retrieval, investigation reconstruction, automated tests, and evidence-aware evaluation.
 
-### [HELIOS](https://github.com/YuvalSigura/HELIOS)
-An experimental project for exploring intelligent systems and automation.
+### 🛡️ [HELIOS — Controlled SaaS Security Laboratory](https://github.com/YuvalSigura/HELIOS)
+**Application security · FastAPI · Docker · PostgreSQL · Redis · Object storage**
 
-**Focus:** Python · experimentation · AI systems
+An intentionally vulnerable, **local-only** multi-tenant SaaS environment for evaluating authorized Web/API security investigations. It models real authorization boundaries and asynchronous workflows, with an independent verification component that checks actual artifacts and audit evidence rather than relying on an agent's report.
 
-### [Autonomous Robot](https://github.com/YuvalSigura/autonomous_robot)
-An autonomous robotics project with a containerized development and deployment direction.
+**Safety:** for controlled, authorized testing only. Not intended for public deployment or production data.
 
-**Focus:** robotics · Docker · autonomous systems
+### 🤖 [SpectraRover — Autonomous Research Rover](https://github.com/YuvalSigura/autonomous_robot)
+**Jetson Orin Nano · ESP32 · Python · OpenCV · Embedded systems**
 
-### [WiFi CSI Sensing](https://github.com/YuvalSigura/esp-csi)
-Applications based on Wi‑Fi Channel State Information, including indoor positioning and human detection.
+A four-wheel mecanum research rover integrating edge computing, low-level motor control, bounded serial commands, camera calibration, and marker-based navigation. Its software architecture separates navigation on the Jetson from motor safety on the ESP32.
 
-**Focus:** embedded systems · signal processing · sensing
+**Status:** pre-RF software and CI test foundations are documented; physical deployment requires platform-specific calibration and verification. RF-guided navigation is planned research, not a completed capability.
 
-### [WiFi CSI Sensing Resources](https://github.com/YuvalSigura/Awesome-WiFi-CSI-Sensing)
-A curated collection of papers and resources covering Wi‑Fi CSI sensing research.
+### 📚 [Exam Recall — Interactive Study Platform](https://github.com/YuvalSigura/yuvalsigura.github.io)
+**JavaScript · HTML · CSS · Browser-based learning**
 
-**Focus:** research · wireless sensing · machine learning
+A live Hebrew study platform for Discrete Mathematics 2 and Introduction to Computer Systems. It includes active-recall practice, multiple study modes, weak-topic review, and locally stored progress.
 
-## Technology areas
+**[Open the live application →](https://yuvalsigura.github.io/)**
 
-```text
-Python        AI / ML        Autonomous Agents        Robotics
-C / C#        Embedded       Docker                   Linux
-JavaScript    Web            Cybersecurity             Wi‑Fi CSI
-Java          Distributed    Developer Tooling         Research
+## Additional public engineering work
+
+- **[Wi-Fi CSI sensing](https://github.com/YuvalSigura/esp-csi):** experiments involving wireless channel-state information and sensing.
+- **[Wi-Fi CSI Sensing Benchmark](https://github.com/YuvalSigura/WiFi-CSI-Sensing-Benchmark):** benchmark-oriented exploration of wireless sensing.
+- **[Security assessment work](https://github.com/YuvalSigura/train-ticket-Analysis-Report):** documentation and analysis of application-security findings.
+
+These repositories document different areas of exploration; they are not presented as interchangeable or as production-ready products.
+
+## Ongoing research directions
+
+Alongside public work, I explore additional **private and early-stage research** in several areas:
+
+| Research area | Public-level description | Stage |
+| --- | --- | --- |
+| Autonomous AI control | Evaluating how agent execution paths can be measured, constrained, and improved | Research design |
+| Evidence-grounded investigation | Provenance-aware reasoning, hypothesis tracking, and uncertainty management | Private R&D |
+| Visual agent systems | Representing agents, tools, permissions, and workflows as explicit system graphs | Early-stage concept |
+| Defensive exposure assessment | Identifying and reporting security misconfigurations in authorized environments | Private tooling |
+
+The table intentionally describes research themes rather than private architectures, implementation details, datasets, or unpublished results.
+
+## Technical interests
+
+**AI & research:** autonomous agents, evaluation methods, retrieval, provenance, planning, uncertainty, Python.
+
+**Security engineering:** application and API security, authorization boundaries, controlled labs, reproducible testing, Linux, Docker.
+
+**Robotics & sensing:** NVIDIA Jetson, ESP32, motor control, computer vision, OpenCV, Wi-Fi CSI, embedded integration.
+
+**Software engineering:** Python, JavaScript, HTML/CSS, ASP.NET, APIs, validation, CI workflows, testing and documentation.
+
+## How I work
+
+- **Evidence first:** distinguish measured results from assumptions, hypotheses, and plans.
+- **Safety by design:** isolate privileged actions and keep authorization explicit.
+- **Reproducibility:** favor controlled environments, testing, traceability, and clear documentation.
+- **Engineering honesty:** mark what is implemented, tested, experimental, or still planned.
+- **Cross-disciplinary thinking:** connect software, security, AI, sensing, and physical systems when useful.
+
+## Current focus
+
+Developing research-grade infrastructure and reproducible experiments for **AI reasoning and control**, **security evaluation**, and **autonomous robotic systems**.
+
+---
+
+<div align="center">
+
+**Research thoughtfully. Build carefully. Verify what actually happened.**
+
+</div>
