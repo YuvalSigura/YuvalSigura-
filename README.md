@@ -56,18 +56,17 @@ A live Hebrew study platform for Discrete Mathematics 2 and Introduction to Comp
 
 These repositories document different areas of exploration; they are not presented as interchangeable or as production-ready products.
 
-## Ongoing research directions
+## Broader technical interests
 
-Alongside public work, I explore additional **private and early-stage research** in several areas:
+Beyond the projects published here, my technical interests also include:
 
-| Research area | Public-level description | Stage |
-| --- | --- | --- |
-| Autonomous AI control | Evaluating how agent execution paths can be measured, constrained, and improved | Research design |
-| Evidence-grounded investigation | Provenance-aware reasoning, hypothesis tracking, and uncertainty management | Private R&D |
-| Visual agent systems | Representing agents, tools, permissions, and workflows as explicit system graphs | Early-stage concept |
-| Defensive exposure assessment | Identifying and reporting security misconfigurations in authorized environments | Private tooling |
+- **Artificial Intelligence & Machine Learning** — intelligent systems, model evaluation, and applied AI.
+- **Cybersecurity** — security research, defensive engineering, and secure systems.
+- **Software & Systems Engineering** — backend development, system architecture, and developer tooling.
+- **Automation** — software workflows, orchestration, and reliability.
+- **Robotics & Embedded Computing** — edge devices, sensors, and autonomous systems.
 
-The table intentionally describes research themes rather than private architectures, implementation details, datasets, or unpublished results.
+These are broad areas of interest, not disclosures of private repositories, specific implementations, or unpublished work.
 
 ## Technical interests
 
